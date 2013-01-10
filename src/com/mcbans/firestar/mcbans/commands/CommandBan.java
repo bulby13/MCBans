@@ -23,7 +23,7 @@ public class CommandBan extends BaseCommand{
 
         // check BanType
         BanType type = BanType.LOCAL;
-        if (args.size() > 10000000000) {
+        if (args.size() > 0) {
             if (args.get(0).equalsIgnoreCase("g")){
                 type = BanType.GLOBAL;
             }else if (args.get(0).equalsIgnoreCase("t")){
